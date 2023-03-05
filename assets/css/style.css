@@ -1,0 +1,77 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/**** HEADER ****/
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(49, 52, 61);
+}
+
+h1 {
+    display: inline;
+    padding-left: 75px;
+    padding-right: 15px;
+    background-color: rgb(146, 204, 205);
+    color: rgb(49, 52, 61);
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-right: 75px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(146, 204, 205);
+}
+
+
+/**** BODY ****/
+
+h2 {
+    text-align: left;
+    margin-right: 20px;
+    color: rgb(68, 88, 118);
+    font-size: 40px;
+    float: left;
+}
+
+
+
+body {
+    background-color: rgb(237, 237, 246);
+}
+
+.content p {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.content-body {
+    
+}
+
+
+/* About Me */
+
+/* Work */
+
+/* Contact Me */
+
+
+/**** FOOTER ****/
