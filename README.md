@@ -7,10 +7,7 @@ Within my portfolio you'll find one of my projects, and a few fillers for future
 The navigation bar at the top can bring you across my Portfolio to specific areas.
 Down at the bottom of the page, my contact information is listed for your ability to reach me multiple ways.
 
-
- ![Horiseon-Landing-Page](/Week_1/Homework_Assignment/Horiseon-Refactor/assets/images/01-html-css-git-homework-demo.png)
-
-Deployed Application URL: https://animeet.github.io/Horiseon-Refactor/
+Deployed Application URL: https://animeet.github.io/Zachary_Barnes_Portfolio/
 
 ## Installation
 
