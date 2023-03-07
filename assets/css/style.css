@@ -98,7 +98,8 @@ body {
 }
 
 .prework-study-guide {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 75%;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -118,7 +119,7 @@ footer{
     color: white;
 }
 
-.footer-content {
+.contact-me {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,19 +127,19 @@ footer{
     text-align: center;
 }
 
-.footer-content h3{
+.contact-me h3{
     font-size: 30px;
     color: #b30000;
     margin-top: 5px;
 }
 
-.footer-content p {
+.contact-me p {
     max-width: 500px;
     margin: 15px auto;
     font-size: 14px;
 }
 
-.socials {
+.contact {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -147,18 +148,18 @@ footer{
     padding-left: 4%;
 }
 
-.socials li {
+.contact li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
 
-.socials li a{
+.contact li a{
     color: white;
     text-decoration: none;
 }
 
-.socials a:hover {
+.contact a:hover {
     color: #b30000;
     transition: .5s;
 }
