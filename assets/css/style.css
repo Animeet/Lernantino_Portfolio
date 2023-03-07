@@ -1,3 +1,8 @@
+:root {
+    --main-color: #b30000;
+    --second-color: white;
+}
+
 * {
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
@@ -28,13 +33,13 @@ nav {
 
 
 .logo {
-    color: white;
+    color: var(--second-color);
     font-size: 50px;
     letter-spacing: 1px;
 }
 
 span {
-    color: #b30000;
+    color: var(--main-color);
 }
 
 nav ul li {
@@ -44,13 +49,13 @@ nav ul li {
 }
 
 nav ul li a{
-    color: white;
+    color: var(--second-color);
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #b30000;
+    color: var(--main-color);
     transition: .5s;
 }
 
@@ -63,7 +68,7 @@ body {
 /**** ABOUT ME ****/
 
 .about-me h2{
-    color: #b30000;
+    color: var(--main-color);
     font-size: 35px;
     display: flex;
     align-items: center;
@@ -73,7 +78,7 @@ body {
 }
 
 .about-me p {
-    color: white;
+    color: var(--second-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +91,7 @@ body {
     margin-left: 150px;
     margin-right: 150px;
     padding: 1px;
-    background-color: white;
+    background-color: var(--second-color);
 }
 
 /**** WORK SECTION ****/
@@ -109,7 +114,7 @@ body {
     min-height: 150px;
     max-height: 150px;
     border: 5px solid black;
-    color: white;
+    color: var(--second-color);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -121,7 +126,7 @@ body {
 }
 
 .work-header h2{
-    color: #b30000;
+    color: var(--main-color);
     text-decoration: under;
     text-align: center;
     font-size: 45px;
@@ -167,7 +172,7 @@ footer{
     height: auto;
     width: 100vw;
     padding-top: 40px;
-    color: white;
+    color: var(--second-color);
 }
 
 .contact-me {
@@ -180,7 +185,7 @@ footer{
 
 .contact-me h3{
     font-size: 30px;
-    color: #b30000;
+    color: var(--main-color);
     margin-top: 5px;
 }
 
@@ -206,11 +211,11 @@ footer{
 }
 
 .contact li a{
-    color: #b30000;
+    color: var(--main-color);
     text-decoration: none;
 }
 
 .contact a:hover {
-    color: white;
+    color: var(--second-color);
     transition: .5s;
 }
