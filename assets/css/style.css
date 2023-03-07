@@ -1,77 +1,57 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /**** HEADER ****/
-
 header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(49, 52, 61);
+    background-color: black;
 }
 
-h1 {
-    display: inline;
-    padding-left: 75px;
-    padding-right: 15px;
-    background-color: rgb(146, 204, 205);
-    color: rgb(49, 52, 61);
+header img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
 }
 
-header nav {
-    float: right;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
-header nav ul {
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+span {
+    color: #b30000;
+}
+
+nav ul li {
     list-style-type: none;
-    padding-top: 5px;
-    padding-right: 75px;
-}
-
-header nav ul li {
     display: inline-block;
-    margin-right: 10px;
-    font-size: 20px;
+    padding: 10px 25px;
 }
 
-a {
-    color: rgb(146, 204, 205);
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-
-/**** BODY ****/
-
-h2 {
-    text-align: left;
-    margin-right: 20px;
-    color: rgb(68, 88, 118);
-    font-size: 40px;
-    float: left;
+nav ul li a:hover {
+    color: #b30000;
+    transition: .5s;
 }
-
-
 
 body {
-    background-color: rgb(237, 237, 246);
+    background-color: #4d4d4d;
 }
-
-.content p {
-    display: inline-block;
-    margin-left: 100px;
-}
-
-.content-body {
-    
-}
-
-
-/* About Me */
-
-/* Work */
-
-/* Contact Me */
-
-
-/**** FOOTER ****/
