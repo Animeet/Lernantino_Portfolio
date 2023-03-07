@@ -151,22 +151,15 @@ footer{
 .contact li {
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 25px 50px 25px;
 }
 
 .contact li a{
-    color: white;
+    color: #b30000;
     text-decoration: none;
 }
 
 .contact a:hover {
-    color: #b30000;
+    color: white;
     transition: .5s;
-}
-
-.footer-bottom {
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-    color: #b30000;
 }
