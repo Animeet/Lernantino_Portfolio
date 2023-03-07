@@ -80,7 +80,7 @@ body {
 .about-me p {
     color: var(--second-color);
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
