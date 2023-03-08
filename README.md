@@ -29,7 +29,7 @@ The only thing this Portfolio doesn't include is my social security number, and 
 
 ## Credits
 
-N/A
+Royalty Free Images - https://www.pexels.com/
 
 ## License
 
